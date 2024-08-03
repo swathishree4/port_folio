@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Internal CSS for basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(189, 76, 155);
+        }
+        header, nav, main, footer {
+            padding: 20px;
+            margin: 10px;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        header:hover{
+            color:lightpink;
+            
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-weight: 400;
+        }
+        nav a:hover{
+            color:lightpink;
+            text-decoration:underline;
+        }
+        main {
+            background-image: url(bg.webp);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            
+        }
+        /* Responsive code */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        .main_1{
+            padding-left: 150px;
+            padding-right: 150px;
+            border: 5PX SOLID #797575;
+            margin-left: 120PX;
+            margin-right: 120PX;
+        }
+        .MAIN_2{
+            margin-left: 100PX;
+            margin-right: 100PX;
+        }
+        footer a{
+            color:white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Swathi Shree S</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificate">Certificates</a>
+        <a href="#skills">Skills</a>
+    </nav>
+    <main>
+        <section id="about">
+            
+            <div class="main_1">
+                <h2><center>About Me</center></h2>
+           
+                <center><img src="download.jfif"alt="Your Image"></center>
+                <p><i>Hello! I'm Swathi Shree, an adaptive and knowledge-enriching individual with a passion for continuous learning and growth. I thrive in dynamic environments, embracing change and new challenges with enthusiasm. My curiosity drives me to explore diverse fields and acquire new skills, enabling me to contribute innovatively and effectively in various contexts. I believe in the power of adaptability and lifelong learning to navigate and excel in an ever-evolving world. </i> </p>
+            </div>
+           
+           
+        </section>
+        <section id="projects">
+            <DIV CLASS="MAIN_2">
+                <h2><center>Projects</center></h2>
+                <h4>AUTOMATIC TIME TABLE GENERATOR</h4>
+                <p>Our Automatic Timetable Generator, a powerful tool developed in C# that simplifies schedule creation. This software efficiently allocates resources and time slots, ensuring optimal use of available periods. It handles constraints and preferences seamlessly, offering a hassle-free solution for timetable management. Say goodbye to manual scheduling complexities with our innovative C# application.</p>
+                <H4>INTERACTIVE GAME-BASED PLATFORM</H4>
+                <P>Our Interactive Game-Based Platform, an engaging and dynamic solution built with cutting-edge technology. This platform combines entertainment and education, offering an immersive experience that captivates users. With a focus on interactive gameplay, it promotes learning through fun and innovation. Transform traditional methods with our state-of-the-art game-based platform.</P>
+            </DIV>
+            
+        </section>
+        
+        <section id="certificate">
+            <h2><center>Certificate</center></h2>
+            <CENTER>
+                
+                Java Full Stack Development - SSRTIC<br>
+                C Programming - SUITS<br>
+                Web Development - Code Bind Technologies<br>
+            </CENTER>
+            
+        </section>
+        <section id="skills">
+            <h2><center>skills</center></h2>
+            <CENTER>
+               <TABLE>
+                
+                
+                <TR>
+                    <TD>
+                        JAVA
+                    </TD>
+                    
+                </TR>
+                <TR>
+                    <TD>
+                        MYSQL
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>
+                        HTML
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>
+                        CSS
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>
+                        BOOTSTRAP
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>
+                        JAVA SCRIPT
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>
+                        MONGO DB
+                    </TD>
+                </TR>
+                          </TABLE>
+            </CENTER>
+            
+        </section>
+    </main>
+    <footer>
+        <p>GMAIL:swathivanisupparaj@gmail.com </p>
+        <p>  CONTACT:8248596247</p>
+        <p>  <a href="https://github.com/swathishree4">Visit my github</a> </p>
+    </footer>
+</body>
+</html>
